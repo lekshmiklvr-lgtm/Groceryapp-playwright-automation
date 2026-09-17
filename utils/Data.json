@@ -1,0 +1,98 @@
+{
+               "admin":{
+                        "username":"Admin",
+                        "password":"admin"
+                        },
+
+
+               "invalidlogin":{
+                               "username":"lekshmi",
+                               "password":"admin"
+                               },
+
+
+               "product":{
+                              "pname":"peanut butter",
+                              "ptype":"veg",
+                              "category":"Dry Fruits&Nuts",
+                              "Group":"Goodness",
+                              "pricetype":"weight",
+                              "weightvalue":"100",
+                              "weight unit":"kg",
+                              "MaxQty":"2",
+                              "price":"560",
+                              "mrp":"600",
+                              "stockavailable":"100",
+                              "purchaseprice":"420"
+                           },
+
+
+               "addpage":{
+                           "name":"peanut butter",
+                           "pagename":"spread",
+                           "filepath":"C:/Users/HP/Downloads/images (3).jpg"
+
+                        },
+
+
+               "searchpage":{
+                              "name":"peanut butter"
+                           },
+
+
+               "category":{
+                              "categoryname":"spread",
+                              "image":"C:/Users/HP/Downloads/images (3).jpg"
+                           },
+
+
+               "newdb":{
+                           "dbname":"hari",
+                           "email":"hari@gmail.com",
+                           "ph":"9856478953",
+                           "adrs":"hari nivas",
+                           "username":"hari123",
+                           "pass":"hari@123"
+                        },
+
+
+               "staff":{
+                           "username":"lekshmi",
+                           "pass":"lekshmi@123"
+                        },
+
+               "offer":{
+                           "code":"P30",
+                           "percent":"30",
+                           "price":"200",
+                           "path":"C:/Users/HP/Downloads/images (3).jpg"
+
+                        },
+
+               "slider":{
+                           "path":"C:/Users/HP/Downloads/images (3).jpg",
+                           "link":"https://groceryapp.uniqassosiates.com/admin/Slider/add"
+                        },
+
+               "verify":{
+
+                                 "username":"Hari"
+                              },
+
+
+               "order":{
+
+                           "id":"189",
+                           "status":"UnPaid",
+                           "date":"2026-09-21",
+                           "time1":"3:30pm",
+                           "time2":"5:00pm",
+                           "db":"1"
+               }
+
+
+
+
+
+
+}
