@@ -5,7 +5,8 @@ const config=({
   workers:4,
   timeout:40*1000,
   expect:{
-    timeout:5000,
+  fullyParallel:true,
+  
   },
   reporter:[
     ['html'],

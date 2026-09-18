@@ -44,7 +44,7 @@ class Manageuser
 
                         const row=this.page.locator("tr").filter({hasText:name}).first();
 
-                        await row.locator('.badge.bg-success').click();
+                        await row.locator('a[href*="/admin/Users/status"]').click();
 
                 }
 }

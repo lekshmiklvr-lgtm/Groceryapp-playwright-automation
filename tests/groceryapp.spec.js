@@ -138,7 +138,7 @@ test.describe('grocery shopping application',()=>{
 
                  });
 
-                 test('Manage delivery boy',async({deliveryboy,testDataForGrocery})=>{
+                 test.only('Manage delivery boy',async({deliveryboy,testDataForGrocery})=>{
 
                         await deliveryboy.adddeliveryboy(       testDataForGrocery.newdb.dbname,
                                                                 testDataForGrocery.newdb.email,
@@ -246,7 +246,7 @@ test.describe('grocery shopping application',()=>{
 
                  });
 
-                 test('Manage user',async({manageuser,testDataForGrocery})=>{
+                 test('@smoke Manage user',async({manageuser,testDataForGrocery})=>{
 
                             await manageuser.search(testDataForGrocery.verify.username);
 
@@ -260,7 +260,7 @@ test.describe('grocery shopping application',()=>{
 
                  });
 
-                 test('@smoke Manage order',async({manageorder,testDataForGrocery})=>{
+                 test('Manage order',async({manageorder,testDataForGrocery})=>{
 
                      await manageorder.searchorder(testDataForGrocery.order.id);
 

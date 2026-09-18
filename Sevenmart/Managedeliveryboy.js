@@ -4,6 +4,8 @@ class Managedeliveryboy
     {
         this.page=page;
 
+        this.home=page.getByRole('link',{name:'Home'});
+
         this.more=page.locator(".small-box-footer");
 
         this.add=page.locator('a[onclick="click_button(1)"]');
@@ -85,12 +87,16 @@ class Managedeliveryboy
             async searchdb(dbname,email,phn)
                 {
 
-                            await this.cancel.click();
-                            
+                            //await this.cancel.click();
+
+                            await this.home.click();
+
+                            await this.more.nth(7).click();
+
                             await this.search.click();
 
                             await this.searchname.fill(dbname);
-
+ 
                             await this.searchemail.fill(email);
 
                             await this.searchphn.fill(phn);
